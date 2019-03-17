@@ -4,3 +4,8 @@
 require "thor/runner"
 $thor_runner = true
 Thor::Runner.start
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
